@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://recoverbet.com/wp-content/uploads/2023/06/RecoverGreen-BG-VPC-01.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-family: "Poppins",Sans-serif;
+    position: relative;
+}
+
+
+@media (max-width: 1025px){
+    body {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 600px){
+    body {
+        gap: 1.5rem;
+    }
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.descount {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+@media (max-width: 600px){
+    .descount {
+        font-size: 25px;
+    }
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    transform: translateX(-1%);
+    width: 300px;
+}
+
+@media (max-width: 600px){
+    header img {
+        width: 200px;
+    }
+}
+
+
+main {
+    width: 65%;
+    min-height: 75vh;
+    border-radius: 14px;
+    background-color: #181818;
+    border:2px solid #4aef84;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 7rem;
+   
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+    background: #EE1312;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #FFF;
+}
+
+.swiper-button-next {
+    font-size: 39px;
+    color: #EE1312;
+}
+
+.swiper-button-prev {
+    font-size: 39px;
+    color: #EE1312;
+}
+
+@media (max-width: 1441px){
+    main {
+        width: 80%;
+        min-height: 70vh;
+    }
+}
+
+@media (max-width: 600px){
+    main {
+        width: 90%;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 321px){
+    main {
+        padding: 2rem 1rem;
+    }
+}
+
+main img {
+    width: 400px;
+}
+
+@media (max-width: 600px){
+    main img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 321px){
+    main img{
+        width: 200px;
+    }
+}
+
+main h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 900px) {
+    main h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 600px){
+    main h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px){
+    main h1 {
+        font-size: 20px;
+    }
+}
+
+
+main p {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400
+}
+
+main p .red {
+    color: red;
+}
+
+main p span {
+    color: #1ED760;
+}
+
+main .value {
+    font-size: 70px;
+}
+
+@media (max-width: 900px) {
+    main .value {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 600px){
+    main .value {
+        font-size: 35px;
+    }
+}
+
+main .subvalue {
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+@media (max-width: 600px){
+    main .subvalue {
+        font-size: 12px;
+    }
+}
+
+main p svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 2rem;
+}
+
+main .saque {
+    font-size: 30px;
+}
+
+@media (max-width: 900px) {
+    main .saque {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px){
+    main .saque {
+        font-size: 15px;
+    }
+}
+
+main .link{
+    text-decoration: underline;
+    color: white;
+}
+
+
+main a {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #1ED760;
+    margin-top: 1rem;
+    font-weight: 700;
+    position: relative;
+}
+
+@media (max-width: 600px){
+    main a {
+        font-size: 13px;
+    }
+    main p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 321px){
+    main a {
+        font-size: 10px;
+    }
+}
+
+main a span {
+    position: relative;
+}
+
+.animation {
+    width: 100%;
+    height: 70px;
+    animation: pulse 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    z-index: 0;
+    border-radius: 4px;
+}
+
+
+@keyframes pulse {
+    from {
+        width: 100%;
+        height: 70px;
+        background-color: #1ed75fbd;
+    }
+    to {
+        width:105%;
+        height: 100px;
+        background-color: #1ed75f00;
+    }
+}
+
+.footer {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.footer h1 {
+    color: #1ED760;
+    font-size: 25px;
+}
+
+@media (max-width: 600px){
+    .footer h1 {
+        font-size: 20px;
+    }
+}
+
+
+.footer p {
+    width: 45%;
+    font-size: 18px;
+}
+
+@media (max-width: 900px) {
+    .footer p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+
+.footer .recuse {
+    font-size: 25px;
+    color: red;
+    margin: 0;
+    font-weight: 600;
+}
+
+@media (max-width: 600px){
+    .footer .recuse {
+        font-size: 20px;
+    }
+}
